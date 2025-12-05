@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olanrewaju Akinola · Creative Director · Technologist · AI Governance</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- PAGE WRAPPER -->
+  <div class="page">
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <nav class="nav">
+        <div class="nav-inner">
+          <a href="#home" class="logo" aria-label="Back to top">
+            <span class="logo-mark">OA</span>
+            <span class="logo-text">Olanrewaju&nbsp;Akinola</span>
+          </a>
+
+          <button
+            class="nav-theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon theme-icon--sun">☀️</span>
+            <span class="theme-icon theme-icon--moon">🌙</span>
+          </button>
+
+          <button
+            class="nav-hamburger"
+            id="hamburger"
+            type="button"
+            aria-label="Toggle navigation"
+          >
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#skills">Capabilities</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#technical">Technical</a></li>
+            <li><a href="#research">AI&nbsp;Governance</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-progress" id="scrollProgress"></div>
+      </nav>
+
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <!-- LEFT: TEXT -->
+          <div class="hero-left">
+            <p class="hero-eyebrow">Creative · Technical · Research</p>
+            <h1 class="hero-heading">
+              I craft <span>visual stories</span> and <span>AI-aware</span> experiences.
+            </h1>
+
+            <p class="hero-subtitle">
+              Creative Director, storyteller and emerging technologist exploring how
+              <strong>media, code and AI governance</strong> shape our digital future.
+            </p>
+
+            <div class="hero-meta">
+              <div class="hero-meta-item">
+                <span class="meta-label">Based in</span>
+                <span class="meta-value">Tarazona · Barcelona · Madrid · Zaragoza</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="meta-label">Open to</span>
+                <span class="meta-value">
+                  Creative direction · Hybrid creative/technical roles · AI & policy research
+                </span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="meta-label">Contact</span>
+                <span class="meta-value">
+                  <a href="tel:+34614479422">+34&nbsp;614&nbsp;479&nbsp;422</a> ·
+                  <a href="mailto:akinola.oluwaseyi22@gmail.com">akinola.oluwaseyi22@gmail.com</a>
+                </span>
+              </div>
+            </div>
+
+            <!-- ROLE SWITCHER -->
+            <div class="role-switcher">
+              <p class="role-label">Show me highlights for:</p>
+              <div class="role-pills" id="rolePills">
+                <button class="role-pill is-active" data-role="creative">Creative Direction</button>
+                <button class="role-pill" data-role="technical">Technical / Hybrid</button>
+                <button class="role-pill" data-role="research">AI Governance</button>
+              </div>
+
+              <div class="role-panels">
+                <div class="role-panel is-active" data-role-panel="creative">
+                  <ul>
+                    <li>Directs immersive campaigns and brand films for UK and EU clients.</li>
+                    <li>Translates complex ideas into clear, emotionally grounded stories.</li>
+                    <li>Experienced with broadcast, worship visuals and multi-platform narratives.</li>
+                  </ul>
+                </div>
+                <div class="role-panel" data-role-panel="technical">
+                  <ul>
+                    <li>Comfortable across HTML, CSS, JavaScript and responsive web flows.</li>
+                    <li>Hands-on with interactive and spatial media tools (Unity, Unreal, VR).</li>
+                    <li>Collaborates smoothly with developers, designers and product teams.</li>
+                  </ul>
+                </div>
+                <div class="role-panel" data-role-panel="research">
+                  <ul>
+                    <li>Doctoral research on synthetic media, deepfakes and AI regulation.</li>
+                    <li>Focus on EU AI Act, GDPR, digital rights and comparative AI law.</li>
+                    <li>Brings ethical and legal context into creative and technical decisions.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA BUTTONS -->
+            <div class="hero-cta">
+              <a
+                href="assets/Olanrewaju-Akinola-CV.pdf"
+                class="btn btn-primary"
+                download
+              >
+                Download CV
+              </a>
+
+              <a
+                href="https://rainbowkreativ.my.canva.site/olanrewwaju-akinola"
+                target="_blank"
+                class="btn btn-ghost"
+              >
+                View creative reel
+              </a>
+
+              <a
+                href="https://github.com/olanrewajuakinola?tab=repositories"
+                target="_blank"
+                class="btn btn-ghost"
+              >
+                Explore code
+              </a>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="hero-links">
+              <a
+                href="https://linkedin.com/in/olanrewajuakinola"
+                target="_blank"
+                class="hero-link"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/olanrewajuakinola"
+                target="_blank"
+                class="hero-link"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://instagram.com/olamirewaju_seyi"
+                target="_blank"
+                class="hero-link"
+              >
+                Instagram
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: HERO CARD -->
+          <div class="hero-right">
+            <article class="hero-card">
+              <div class="hero-image-wrap">
+                <img
+                  src="assets/hero-showreel.jpg"
+                  alt="Still from Olanrewaju Akinola's showreel"
+                  class="hero-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="hero-stats">
+                <div class="hero-stat">
+                  <span class="hero-stat-number">100K+</span>
+                  <span class="hero-stat-label">Viewers reached</span>
+                </div>
+                <div class="hero-stat">
+                  <span class="hero-stat-number">Multi-disciplinary</span>
+                  <span class="hero-stat-label">Creative · Code · AI law</span>
+                </div>
+                <div class="hero-stat">
+                  <span class="hero-stat-number">EU / UK</span>
+                  <span class="hero-stat-label">Broadcast & brand work</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <button class="hero-scroll-hint" type="button" data-scroll-target="#about">
+          Scroll to profile ↓
+        </button>
+      </section>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- PROFILE -->
+      <section id="about" class="section reveal">
+        <div class="section-header">
+          <h2>Profile summary</h2>
+          <p>
+            A multidisciplinary creative and researcher working at the intersection of storytelling,
+            technology and AI governance.
+          </p>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-text">
+            <p>
+              I am a Creative Director, Storyteller and Interactive Media Strategist with experience
+              across video production, motion graphics, immersive content and cross-platform storytelling.
+              I develop emotionally resonant, visually strong narratives for brands, media
+              organisations and global audiences.
+            </p>
+            <p>
+              My practice blends cinematic storytelling with emerging technologies, including real-time
+              engines, interactive media and AI-assisted workflows. I enjoy translating complex ideas into
+              accessible, engaging visual experiences that work across video, VR, mobile and spatial media.
+            </p>
+            <p>
+              Alongside my creative work, I research AI law, digital rights and synthetic media
+              governance—focusing on deepfakes, image rights and AI regulation across the EU, UK, US,
+              Germany and France. This hybrid background lets me approach creative direction with
+              strategic, ethical and future-facing insight.
+            </p>
+          </div>
+
+          <aside class="about-sidebar">
+            <div class="card">
+              <h3>Focus areas</h3>
+              <ul>
+                <li>Creative & art direction</li>
+                <li>Video editing & motion design</li>
+                <li>Immersive / interactive media</li>
+                <li>AI, law & digital governance</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Education</h3>
+              <ul>
+                <li>PhD (in progress) – AI & synthetic media regulation</li>
+                <li>LL.M – Information Technology & Intellectual Property Law</li>
+                <li>LL.B – Law</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Languages</h3>
+              <ul>
+                <li>English – Fluent</li>
+                <li>Spanish – A2/B1 (improving)</li>
+                <li>Yoruba – Native</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- CAPABILITIES -->
+      <section id="skills" class="section reveal">
+        <div class="section-header">
+          <h2>Capabilities & tools</h2>
+          <p>Bridging creative direction, technical workflows and AI-aware storytelling.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Creative & production</h3>
+            <div class="tag-grid">
+              <span class="tag">Creative direction</span>
+              <span class="tag">Storytelling</span>
+              <span class="tag">Video editing</span>
+              <span class="tag">Motion graphics</span>
+              <span class="tag">3D / VFX</span>
+              <span class="tag">Narrative design</span>
+              <span class="tag">Live / worship visuals</span>
+              <span class="tag">Brand & content strategy</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Technical & interactive</h3>
+            <div class="tag-grid">
+              <span class="tag">HTML · CSS · JavaScript</span>
+              <span class="tag">Responsive web design</span>
+              <span class="tag">Interactive / spatial media</span>
+              <span class="tag">Unity (basic)</span>
+              <span class="tag">Unreal (basic)</span>
+              <span class="tag">VR / 360</span>
+              <span class="tag">Git & GitHub</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>AI, law & governance</h3>
+            <div class="tag-grid">
+              <span class="tag">AI governance</span>
+              <span class="tag">Synthetic media regulation</span>
+              <span class="tag">Digital rights</span>
+              <span class="tag">Data protection (GDPR)</span>
+              <span class="tag">Cybersecurity law</span>
+              <span class="tag">Comparative AI regulation</span>
+              <span class="tag">Policy & legal research</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Creative tools</h3>
+            <div class="tag-grid">
+              <span class="tag">Premiere Pro</span>
+              <span class="tag">After Effects</span>
+              <span class="tag">DaVinci Resolve</span>
+              <span class="tag">Final Cut Pro</span>
+              <span class="tag">Photoshop</span>
+              <span class="tag">Illustrator</span>
+              <span class="tag">Avid Media Composer</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>3D & interactive</h3>
+            <div class="tag-grid">
+              <span class="tag">Blender</span>
+              <span class="tag">Cinema 4D (basic)</span>
+              <span class="tag">Maya (basic)</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Unreal (basic)</span>
+              <span class="tag">VR / 360</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Collaboration & workflow</h3>
+            <div class="tag-grid">
+              <span class="tag">Figma</span>
+              <span class="tag">Notion</span>
+              <span class="tag">Miro</span>
+              <span class="tag">Asana</span>
+              <span class="tag">ClickUp</span>
+              <span class="tag">Remote team leadership</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Snapshot impact</h3>
+          <ul>
+            <li>Directed and edited content reaching 100,000+ viewers globally.</li>
+            <li>Creative direction and interactive campaigns for clients across the UK and Spain.</li>
+            <li>Broadcast and motion work as Media Technologist at BBC Northern Ireland.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section reveal">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p>Selected roles across creative production, broadcast and digital innovation.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Creative Director & Lead Editor</h3>
+              <p class="timeline-meta">
+                Rainbow Kreativ · Manchester, UK · Jan 2023 – Present
+              </p>
+              <ul>
+                <li>Directs immersive commercials and interactive campaigns across digital and mobile platforms.</li>
+                <li>Develops visual storytelling pipelines incorporating 3D, motion graphics and real-time VFX.</li>
+                <li>Leads IP ideation and concept development for brand films and product showcases.</li>
+                <li>Collaborates with developers and strategists to translate complex ideas into clear visuals.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Media Technologist / Video Editor</h3>
+              <p class="timeline-meta">
+                BBC Northern Ireland · Belfast, UK · Jul 2023 – Sep 2023
+              </p>
+              <ul>
+                <li>Produced and edited broadcast segments integrating narrative with animated infographics.</li>
+                <li>Created 3D reconstructions and VR-ready visual assets for news and documentary features.</li>
+                <li>Partnered with directors and journalists to shape editorial tone and visual style.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Video Editor & Motion Graphics Artist</h3>
+              <p class="timeline-meta">
+                Lanre Esho Films · Lagos, Nigeria · May 2020 – Jun 2021
+              </p>
+              <ul>
+                <li>Developed story-driven edits for weddings, brand projects and advertisements.</li>
+                <li>Designed motion graphics intros and title sequences to elevate narrative delivery.</li>
+                <li>Maintained timelines and client communication through structured delivery pipelines.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO / SELECTED WORK -->
+      <section id="work" class="section reveal">
+        <div class="section-header">
+          <h2>Selected work</h2>
+          <p>A snapshot of projects across broadcast, brands and immersive experiences.</p>
+        </div>
+
+        <div class="chip-row" id="workFilters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="creative">Creative campaigns</button>
+          <button class="chip" data-filter="broadcast">Broadcast</button>
+          <button class="chip" data-filter="client">Client work</button>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="work-card card" data-type="creative">
+            <div class="work-image-wrap">
+              <img
+                src="assets/work-rainbow.jpg"
+                alt="Visual from Rainbow Kreativ campaign"
+                loading="lazy"
+              />
+            </div>
+            <div class="work-body">
+              <h3>Rainbow Kreativ campaigns</h3>
+              <p class="work-role">Creative Director & Interactive Media Lead</p>
+              <p>
+                Multi-format campaigns combining live-action, motion graphics and worship visuals
+                for clients across the UK and Spain.
+              </p>
+              <a
+                href="https://www.instagram.com/p/C-HuJ6ioR-V/"
+                target="_blank"
+                class="inline-link"
+              >
+                View campaign snippet ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="work-card card" data-type="broadcast">
+            <div class="work-image-wrap">
+              <img
+                src="assets/work-bbc.jpg"
+                alt="Broadcast frame from BBC Northern Ireland project"
+                loading="lazy"
+              />
+            </div>
+            <div class="work-body">
+              <h3>BBC NI short-form story</h3>
+              <p class="work-role">Media Technologist / Video Editor</p>
+              <p>
+                Broadcast edit integrating motion graphics and 3D visualisations to support
+                editorial storytelling and accessibility.
+              </p>
+              <a
+                href="https://www.instagram.com/p/Cx3D6tiC-f6/"
+                target="_blank"
+                class="inline-link"
+              >
+                View edit excerpt ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="work-card card" data-type="client">
+            <div class="work-image-wrap">
+              <img
+                src="assets/work-clients.jpg"
+                alt="Client visuals and brand work collage"
+                loading="lazy"
+              />
+            </div>
+            <div class="work-body">
+              <h3>Client visuals & brand work</h3>
+              <p class="work-role">Freelance Creative</p>
+              <p>
+                Brand-aligned visuals and post-production for clients including Veekee James,
+                Todd Dulaney and StepFWD Awards.
+              </p>
+              <a
+                href="https://www.rainbowkreativ.com/"
+                target="_blank"
+                class="inline-link"
+              >
+                View client work ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TECHNICAL PROJECTS -->
+      <section id="technical" class="section reveal">
+        <div class="section-header">
+          <h2>Technical projects</h2>
+          <p>Where code, interactive systems and creative workflows meet.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Interactive portfolio experience</h3>
+            <p class="meta">HTML · CSS · JavaScript</p>
+            <p>
+              Built and iterated this portfolio using semantic HTML, custom animations and
+              JavaScript-based interactions to showcase creative and technical work.
+            </p>
+            <ul class="bullet-list">
+              <li>Responsive layout with custom grid and card systems.</li>
+              <li>IntersectionObserver-powered reveal animations and scroll indicator.</li>
+              <li>Role-based highlights and filterable project grid.</li>
+            </ul>
+            <a
+              href="https://github.com/olanrewajuakinola?tab=repositories"
+              target="_blank"
+              class="inline-link"
+            >
+              View code experiments ↗
+            </a>
+          </article>
+
+          <article class="card">
+            <h3>Foundations of full-stack practice</h3>
+            <p class="meta">Web fundamentals · Course projects</p>
+            <p>
+              Applied concepts from “Foundations of Coding – Full-Stack”, including HTML/CSS
+              structure, JavaScript basics and working with developer tools and version control.
+            </p>
+            <ul class="bullet-list">
+              <li>Structured layouts with clean, accessible markup.</li>
+              <li>Introduced JavaScript for interactivity and logic.</li>
+              <li>Git & GitHub for tracking experiments and learnings.</li>
+            </ul>
+            <a
+              href="https://github.com/ElOlamirewaju?tab=repositories"
+              target="_blank"
+              class="inline-link"
+            >
+              Explore repositories ↗
+            </a>
+          </article>
+
+          <article class="card">
+            <h3>Creative + code experiments</h3>
+            <p class="meta">Interactive media · Prototyping</p>
+            <p>
+              Ongoing experiments connecting creative direction with code-driven experiences—from
+              interactive UI elements to ideas for games, simulations or visual tools.
+            </p>
+            <ul class="bullet-list">
+              <li>Using code to extend narrative and visual storytelling.</li>
+              <li>Prototyping concepts that can evolve into apps or interactive pieces.</li>
+              <li>Bridging game engine workflows with web-based experiences.</li>
+            </ul>
+            <a
+              href="https://github.com/ElOlamirewaju"
+              target="_blank"
+              class="inline-link"
+            >
+              See experiments ↗
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- RESEARCH -->
+      <section id="research" class="section reveal">
+        <div class="section-header">
+          <h2>AI governance & research</h2>
+          <p>Researching synthetic media, digital rights and the governance of AI-driven systems.</p>
+        </div>
+
+        <div class="research-layout">
+          <div class="research-text">
+            <article class="card research-card">
+              <h3>Doctoral researcher – AI law & synthetic media</h3>
+              <p class="meta">Selinus University · 2025 – Present</p>
+              <ul class="bullet-list">
+                <li>Comparative analysis of synthetic media regulation across the UK, EU, US, Germany and France.</li>
+                <li>Exploring legal and ethical frameworks for deepfakes, image rights and AI-generated content.</li>
+                <li>Developing governance models aligned with the EU AI Act, GDPR and human-rights principles.</li>
+              </ul>
+            </article>
+
+            <article class="card research-card">
+              <h3>Graduate researcher – digital governance & AI ethics</h3>
+              <p class="meta">Independent · 2022 – Present</p>
+              <ul class="bullet-list">
+                <li>Co-authored work on AI ethics, algorithmic accountability and sustainability.</li>
+                <li>Investigated digital twins, IoT governance and transparency in algorithmic systems.</li>
+                <li>Conducted doctrinal and policy research on AI risk classification and platform regulation.</li>
+              </ul>
+            </article>
+
+            <article class="card research-card">
+              <h3>Selected publications</h3>
+              <ul class="bullet-list">
+                <li><a href="#" target="_blank" class="inline-link">Balancing AI Efficiency & Ethics – IJRESM (2025)</a></li>
+                <li><a href="#" target="_blank" class="inline-link">AI-Driven Regenerative Agriculture – IOSR (2025)</a></li>
+                <li><a href="#" target="_blank" class="inline-link">Lessons from the COVID-19 Pandemic – TMH (2022)</a></li>
+                <li><a href="#" target="_blank" class="inline-link">Comparative Analysis of AI Regulation (UK/EU/USA) – SSRN</a></li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="research-image-wrap">
+            <img
+              src="assets/speaking.jpg"
+              alt="Olanrewaju Akinola speaking about AI governance and media"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section reveal">
+        <div class="section-header">
+          <h2>Let’s collaborate</h2>
+          <p>Open to creative, technical and research-driven collaborations across Europe and remote.</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="card contact-info">
+            <h3>Direct contact</h3>
+            <ul class="contact-list">
+              <li>
+                <span>Phone</span>
+                <a href="tel:+34614479422">+34&nbsp;614&nbsp;479&nbsp;422</a>
+              </li>
+              <li>
+                <span>Email</span>
+                <a href="mailto:akinola.oluwaseyi22@gmail.com">akinola.oluwaseyi22@gmail.com</a>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a href="https://linkedin.com/in/olanrewajuakinola" target="_blank">
+                  linkedin.com/in/olanrewajuakinola
+                </a>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/olanrewajuakinola" target="_blank">
+                  github.com/olanrewajuakinola
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <form id="contactForm" class="card contact-form" novalidate>
+            <h3>Send a quick message</h3>
+            <p class="contact-hint">This form is a demo. For time-sensitive work, email is fastest.</p>
+
+            <label class="field">
+              <span>Your name</span>
+              <input type="text" id="name" placeholder="Recruiter / Studio / Organisation" required />
+            </label>
+
+            <label class="field">
+              <span>Email</span>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </label>
+
+            <label class="field">
+              <span>How can I help?</span>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Tell me a bit about the role, project or collaboration..."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Send message
+            </button>
+
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> Olanrewaju Akinola. All rights reserved.
+        · <a href="https://github.com/olanrewajuakinola" target="_blank">GitHub</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button class="scroll-top" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
