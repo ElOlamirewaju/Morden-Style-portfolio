@@ -137,7 +137,7 @@ Creative Director · Technologist · AI Governance Researcher
 
 🎥 Instagram: https://instagram.com/olamirewaju_seyi
 
-💻 GitHub: https://github.com/olanrewajuakinola
+💻 GitHub: https://github.com/ElOlamirewaju)
 
 📧 Email: akinola.oluwaseyi22@gmail.com
 
